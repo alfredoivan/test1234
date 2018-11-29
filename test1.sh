@@ -1,4 +1,2 @@
-    'WScript.Echo "texto construido " & strPath1 & strAttr1 & strAttr2 ' & strAttr3
-Else
-    Wscript.Echo "argumentos insuficientes"
-end if
+    Dim objShell, strPath1, strAttr1, strAttr2, strAttr3
+    Set objShell = CreateObject ("WScript.Shell")
